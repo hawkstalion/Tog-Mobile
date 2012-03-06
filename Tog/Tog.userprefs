@@ -1,10 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="iOS (Debug)|iPhoneSimulator" />
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="Tog_Android" selected="True" />
+          <Node name="Tog_iOS" expanded="True" selected="True">
+            <Node name="References" expanded="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>
