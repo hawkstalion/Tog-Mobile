@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libtogmobile", "libtogmobile\libtogmobile.csproj", "{EDBEAE16-ACDD-480F-82C7-EDB21B33F9B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tog_iOS", "Tog_iOS\Tog_iOS.csproj", "{D1C288B9-6332-418A-9676-FC60A00DB49B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tog_Android", "Tog_Android\Tog_Android.csproj", "{DBCC9D46-B023-4763-8F47-F2686310F2DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Any CPU = Default|Any CPU
+		libtogmobile (Debug)|x86 = libtogmobile (Debug)|x86
+		libtogmobile (Release)|x86 = libtogmobile (Release)|x86
+		iOS (Debug)|iPhoneSimulator = iOS (Debug)|iPhoneSimulator
+		iOS (Release)|iPhoneSimulator = iOS (Release)|iPhoneSimulator
+		iOS Device (Debug)|iPhone = iOS Device (Debug)|iPhone
+		iOS Device (Release)|iPhone = iOS Device (Release)|iPhone
+		Android Emulator (Debug)|Any CPU = Android Emulator (Debug)|Any CPU
+		Android Emulator (Release)|Any CPU = Android Emulator (Release)|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1C288B9-6332-418A-9676-FC60A00DB49B}.iOS (Debug)|iPhoneSimulator.ActiveCfg = iOS (Debug)|iPhoneSimulator
+		{D1C288B9-6332-418A-9676-FC60A00DB49B}.iOS (Debug)|iPhoneSimulator.Build.0 = iOS (Debug)|iPhoneSimulator
+		{D1C288B9-6332-418A-9676-FC60A00DB49B}.iOS (Release)|iPhoneSimulator.ActiveCfg = iOS (Release)|iPhoneSimulator
+		{D1C288B9-6332-418A-9676-FC60A00DB49B}.iOS (Release)|iPhoneSimulator.Build.0 = iOS (Release)|iPhoneSimulator
+		{D1C288B9-6332-418A-9676-FC60A00DB49B}.iOS Device (Debug)|iPhone.ActiveCfg = iOS Device (Debug)|iPhone
+		{D1C288B9-6332-418A-9676-FC60A00DB49B}.iOS Device (Debug)|iPhone.Build.0 = iOS Device (Debug)|iPhone
+		{D1C288B9-6332-418A-9676-FC60A00DB49B}.iOS Device (Release)|iPhone.ActiveCfg = iOS Device (Release)|iPhone
+		{D1C288B9-6332-418A-9676-FC60A00DB49B}.iOS Device (Release)|iPhone.Build.0 = iOS Device (Release)|iPhone
+		{D1C288B9-6332-418A-9676-FC60A00DB49B}.libtogmobile (Debug)|x86.ActiveCfg = iOS (Debug)|iPhoneSimulator
+		{D1C288B9-6332-418A-9676-FC60A00DB49B}.libtogmobile (Release)|x86.ActiveCfg = iOS (Release)|iPhoneSimulator
+		{DBCC9D46-B023-4763-8F47-F2686310F2DB}.Android Emulator (Debug)|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBCC9D46-B023-4763-8F47-F2686310F2DB}.Android Emulator (Debug)|Any CPU.Build.0 = Debug|Any CPU
+		{DBCC9D46-B023-4763-8F47-F2686310F2DB}.Android Emulator (Release)|Any CPU.ActiveCfg = Release|Any CPU
+		{DBCC9D46-B023-4763-8F47-F2686310F2DB}.Android Emulator (Release)|Any CPU.Build.0 = Release|Any CPU
+		{DBCC9D46-B023-4763-8F47-F2686310F2DB}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBCC9D46-B023-4763-8F47-F2686310F2DB}.iOS (Debug)|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{DBCC9D46-B023-4763-8F47-F2686310F2DB}.iOS (Release)|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{DBCC9D46-B023-4763-8F47-F2686310F2DB}.iOS Device (Debug)|iPhone.ActiveCfg = Debug|Any CPU
+		{DBCC9D46-B023-4763-8F47-F2686310F2DB}.iOS Device (Release)|iPhone.ActiveCfg = Debug|Any CPU
+		{DBCC9D46-B023-4763-8F47-F2686310F2DB}.libtogmobile (Debug)|x86.ActiveCfg = Debug|Any CPU
+		{DBCC9D46-B023-4763-8F47-F2686310F2DB}.libtogmobile (Release)|x86.ActiveCfg = Debug|Any CPU
+		{EDBEAE16-ACDD-480F-82C7-EDB21B33F9B4}.libtogmobile (Debug)|x86.ActiveCfg = libtogmobile (Debug)|Any CPU
+		{EDBEAE16-ACDD-480F-82C7-EDB21B33F9B4}.libtogmobile (Debug)|x86.Build.0 = libtogmobile (Debug)|Any CPU
+		{EDBEAE16-ACDD-480F-82C7-EDB21B33F9B4}.libtogmobile (Release)|x86.ActiveCfg = libtogmobile (Release)|Any CPU
+		{EDBEAE16-ACDD-480F-82C7-EDB21B33F9B4}.libtogmobile (Release)|x86.Build.0 = libtogmobile (Release)|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItems = $0
+		$0.Item = Tog_iOS\Tog_iOS.csproj
+		Policies = $1
+		$1.DotNetNamingPolicy = $2
+		$2.DirectoryNamespaceAssociation = None
+		$2.ResourceNamePolicy = FileFormatDefault
+		$1.StandardHeader = $3
+		$3.Text = 
+		$3.IncludeInNewFiles = True
+		$1.VersionControlPolicy = $4
+		$4.inheritsSet = Mono
+		$1.ChangeLogPolicy = $5
+		$5.UpdateMode = None
+		$5.MessageStyle = $6
+		$6.LineAlign = 0
+		$5.inheritsSet = Mono
+	EndGlobalSection
+EndGlobal

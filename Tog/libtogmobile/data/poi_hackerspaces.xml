@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This data taken from http://hackerspaces.org/ -->
+<hackerspaces>
+	<poi>
+		<title>Tog</title>
+		<description>Dublin's premier Hackerspace</description>
+		<website>http://www.tog.ie/</website>
+		<twitter>tog_dublin</twitter>
+		<address>Warehouse Unit C
+Chancery Lane
+Dublin 8
+Dublin
+Ireland</address>
+		<gps>
+			<longitude>53.3415209312</longitude>
+			<latitude>-6.26878416546</latitude>
+		</gps>				
+	</poi>
+	<poi>
+		<title>091 Labs</title>
+		<description>091 Labs is a collaborative community space based in Galway City, Ireland.</description>
+		<website>http://www.091labs.com/</website>
+		<twitter>091labs</twitter>
+		<address>Tyrone House
+47 Eyre Square
+Galway Galway
+Ireland</address>
+		<gps>
+			<longitude>53.27539</longitude>
+			<latitude>-9.04945</latitude>
+		</gps>				
+	</poi>
+	<poi>
+		<title>EHS</title> 
+		<description>Ennis Hacker Space (Temporary name)</description>
+		<website>http://ennishackerspace.webs.com/</website>
+		<twitter></twitter>
+		<address></address>
+		<gps>
+			<longitude>52.84479997436169</longitude>
+			<latitude>8.981281757660327</latitude>
+		</gps>				
+	</poi>
+	<poi>
+		<title>MiLKlabs</title> 
+		<description>Limerick Hackerspace has been renamed miLKlabs (derived from Made In LimericK labs)</description>
+		<website>http://www.milklabs.ie/</website>
+		<twitter>milklabs</twitter>
+		<address> Limerick
+Ireland</address>
+		<gps>
+			<longitude>52.66396539503131</longitude>
+			<latitude>8.628875613212585</latitude>
+		</gps>				
+	</poi>
+	<poi>
+		<title>NUIMMakersClub</title>
+		<description>The NUIM Makers Club was founded during Autumn 2008.</description>
+		<website>http://bizmad332.blogspot.com/</website>
+		<twitter></twitter>
+		<address>Maynooth
+Ireland</address>
+		<gps>
+			<longitude>53.38157</longitude>
+			<latitude>6.59098</latitude>
+		</gps>				
+	</poi>
+	<poi>
+		<title>Nexus Cork</title> 
+		<description>Cork's only Hackerspace, Nexus Cork is situated in the Camden Palace building along the quays in Cork. </description>
+		<website>http://www.hackerspacecork.com/</website>
+		<twitter></twitter>
+		<address>Camden Palace Building
+Camden Quay
+Cork			
+Ireland</address>
+		<gps>
+			<longitude>51.9010576</longitude>
+			<latitude>-8.4725478</latitude>
+		</gps>				
+	</poi>
+</hackerspaces>
+

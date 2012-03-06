@@ -1,0 +1,9 @@
+*.DS_Store
+bin/*
+obj/*
+Tog_iOS/bin/*
+Tog_iOS/obj/*
+Tog_Android/bin/*
+Tog_Android/obj/*
+libtogmobile/bin/*
+libtogmobile/obj/*
