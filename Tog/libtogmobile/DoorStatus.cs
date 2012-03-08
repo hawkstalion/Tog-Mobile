@@ -24,7 +24,7 @@ namespace Tog.mobile.web
 		}
 		
         /**
-         * @author Dave the Awesome Kerr :P
+         * @author Dave Kerr
          * Implemented tog API to get the open or close status of the 
          * Tog hackerspace
          */
@@ -32,9 +32,11 @@ namespace Tog.mobile.web
 
             WebClient client = new WebClient();
             string json = client.DownloadString("http://www.tog.ie/cgi-bin/space");
-
+		
+	    //Json parsers from newtonsoft.json
             JsonSerializer serializer = new JsonSerializer();
             JObject o = JObject.Parse(json);
+            
             Boolean status = (Boolean)o["open"];
 
             client.Dispose();
