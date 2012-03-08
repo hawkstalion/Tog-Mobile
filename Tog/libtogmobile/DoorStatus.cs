@@ -1,6 +1,8 @@
 using System;
 using System.Net;
 using System.IO;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace Tog.mobile.web
 {
@@ -21,39 +23,38 @@ namespace Tog.mobile.web
 			getCurrentStatus();
 		}
 		
+        /**
+         * @author Dave the Awesome Kerr :P
+         * Implemented tog API to get the open or close status of the 
+         * Tog hackerspace
+         */
 		public DoorStatusKind getCurrentStatus() {
-			
-			// TODO: use JSON parser, not done yet due to time constraints and awesome.
-			
-			WebRequest request			= System.Net.HttpWebRequest.Create("http://www.tog.ie/state/");
-			HttpWebResponse response	= (HttpWebResponse)request.GetResponse();
-			string body = "";
-			
-			if(response.StatusCode != HttpStatusCode.OK) {
+
+            WebClient client = new WebClient();
+            string json = client.DownloadString("http://www.tog.ie/cgi-bin/space");
+
+            JsonSerializer serializer = new JsonSerializer();
+            JObject o = JObject.Parse(json);
+            Boolean status = (Boolean)o["open"];
+
+            client.Dispose();
+            o = null;
+            serializer = null;
+
+            if(status){
+                _status = DoorStatusKind.Open;
+                return DoorStatusKind.Open;
+            }
+            
+            else{
 				_status = DoorStatusKind.Closed;
 				return DoorStatusKind.Closed;
 			}
-			
-			StreamReader sr = new StreamReader(response.GetResponseStream());
-			body = sr.ReadToEnd();
-			sr.Close();
-			
-			if(body.ToLower().IndexOf("space closed") == 0) {
-				_status = DoorStatusKind.Open;	
-			} else {
-				_status = DoorStatusKind.Closed;
-			}
-			
-			return _status;
-			
 		}
 		
 		public void update() {
-		
-			getCurrentStatus();
-			
-		}
-		
+
+			getCurrentStatus();			
+		}		
 	}
 }
-
